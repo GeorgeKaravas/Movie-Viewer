@@ -1,0 +1,22 @@
+{
+  "name": "Movie Viewer",
+  "description": "Check out popular movies from TMDB",
+  "main": "index.js",
+  "authors": [
+    "George Karavas <karavasgiwrgos@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "lightbox2": "~2.8.2"
+  }
+}
