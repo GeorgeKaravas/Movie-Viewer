@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/programreneur/.nvm/versions/node/v5.1.0/bin/node',
+1 verbose cli   '/home/programreneur/.nvm/versions/node/v5.1.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build-run' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 verbose run-script [ 'prebuild-run', 'build-run', 'postbuild-run' ]
+5 info lifecycle moviedb-popular-movies@1.0.0~prebuild-run: moviedb-popular-movies@1.0.0
+6 silly lifecycle moviedb-popular-movies@1.0.0~prebuild-run: no script for prebuild-run, continuing
+7 info lifecycle moviedb-popular-movies@1.0.0~build-run: moviedb-popular-movies@1.0.0
+8 verbose lifecycle moviedb-popular-movies@1.0.0~build-run: unsafe-perm in lifecycle true
+9 verbose lifecycle moviedb-popular-movies@1.0.0~build-run: PATH: /home/programreneur/.nvm/versions/node/v5.1.0/lib/node_modules/npm/bin/node-gyp-bin:/home/programreneur/Programming/githubRepos/moviedb-popular-movies/node_modules/.bin:/home/programreneur/.gvm/bin:/usr/local/heroku/bin:/home/programreneur/.nvm/versions/node/v5.1.0/bin:/home/programreneur/.rvm/gems/ruby-2.2.1/bin:/home/programreneur/.rvm/gems/ruby-2.2.1@global/bin:/home/programreneur/.rvm/rubies/ruby-2.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/programreneur/.rvm/bin:/home/programreneur/.rvm/bin
+10 verbose lifecycle moviedb-popular-movies@1.0.0~build-run: CWD: /home/programreneur/Programming/githubRepos/moviedb-popular-movies
+11 silly lifecycle moviedb-popular-movies@1.0.0~build-run: Args: [ '-c',
+11 silly lifecycle   'browserify -t [babelify] src/index.js -o build/bundle.js && http-server -c-1' ]
+12 silly lifecycle moviedb-popular-movies@1.0.0~build-run: Returned: code: 1  signal: null
+13 info lifecycle moviedb-popular-movies@1.0.0~build-run: Failed to exec build-run script
+14 verbose stack Error: moviedb-popular-movies@1.0.0 build-run: `browserify -t [babelify] src/index.js -o build/bundle.js && http-server -c-1`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/programreneur/.nvm/versions/node/v5.1.0/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/programreneur/.nvm/versions/node/v5.1.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid moviedb-popular-movies@1.0.0
+16 verbose cwd /home/programreneur/Programming/githubRepos/moviedb-popular-movies/src
+17 error Linux 4.2.0-27-generic
+18 error argv "/home/programreneur/.nvm/versions/node/v5.1.0/bin/node" "/home/programreneur/.nvm/versions/node/v5.1.0/bin/npm" "run" "build-run"
+19 error node v5.1.0
+20 error npm  v3.3.12
+21 error code ELIFECYCLE
+22 error moviedb-popular-movies@1.0.0 build-run: `browserify -t [babelify] src/index.js -o build/bundle.js && http-server -c-1`
+22 error Exit status 1
+23 error Failed at the moviedb-popular-movies@1.0.0 build-run script 'browserify -t [babelify] src/index.js -o build/bundle.js && http-server -c-1'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the moviedb-popular-movies package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     browserify -t [babelify] src/index.js -o build/bundle.js && http-server -c-1
+23 error You can get their info via:
+23 error     npm owner ls moviedb-popular-movies
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
