@@ -33,9 +33,9 @@
 # Main way to build
 
 
-In index.html you need to link to the components from bootstrap/Lightbox/jQuery first using a *src* command to the relative .js file from each tool, in **body**
+In index.html you need to link the components from bootstrap/Lightbox/jQuery first using a *src* command to the relative .js file from each tool, in **body**.
 
-In **head** you need to link the css styles from the relative .css from each tool using *href* command
+In **head** you need to link the css styles from the relative .css from each tool using *href* command.
   
 After define to an ID our variable"app" we can start using the libraries of the tools.
 
@@ -52,4 +52,4 @@ For the APIs, i use the key provided, with the code in jQuery that was generated
 # Licences
 
 
-All of the tools and code extracted are Licensed under MIT and are free to use.
+All of the tools and code packages are licensed under MIT and are free to use.
