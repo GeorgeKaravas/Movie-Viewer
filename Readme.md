@@ -1,6 +1,6 @@
 
 # A list of the most popular movies.
 
-* Use Chrome to view the page.
+*Use Chrome to view the page.*
 
 
