@@ -3,4 +3,5 @@
 
 *Use Chrome to view the page.*
 
+*Open the index.html to use the page.*
 
