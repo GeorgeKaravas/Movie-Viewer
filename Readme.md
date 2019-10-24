@@ -34,7 +34,7 @@
 
 
 In index.html you need to link to the components from bootstrap/Lightbox/jQuery first using a *src* command to the relative .js file from each tool, in **body**
-  
+
 In **head** you need to link the css styles from the relative .css from each tool using *href* command
   
 After define to an ID our variable"app" we can start using the libraries of the tools.
@@ -42,3 +42,14 @@ After define to an ID our variable"app" we can start using the libraries of the 
 In the Movies.js you define what will show on the main bar and that we export.
 
 In each step of the connection to the mail file , comments show what some function/var and other js command will do.
+
+The fonts of the site are in Bootstrap directory for use on the site.
+
+Every class has a define js file.
+
+For the APIs, i use the key provided, with the code in jQuery that was generated and the responce from https://developers.themoviedb.org/3/discover/movie-discover to implement it with js.
+
+# Licences
+
+
+All of the tools and code extracted are Licensed under MIT and are free to use.
