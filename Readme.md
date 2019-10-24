@@ -22,7 +22,7 @@
 
 - https://jquery.com/ Use of their libraries and Ajax
 
-- JavaScript for the main structure and connectivity with the rest components
+- JavaScript for the main structure and connectivity with the rest of the components
 
 - Notepad++ for the main text editor
 
