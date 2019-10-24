@@ -16,4 +16,16 @@
 
 # Built With 
 
-- https://lokeshdhakar.com/projects/lightbox2/
+- https://lokeshdhakar.com/projects/lightbox2/  web framework used
+
+- http://getbootstrap.com web framework used for some light animation and css Styles
+
+- https://jquery.com/ Use of their libraries and Ajax
+
+- JavaScript for the main structure and connectivity with the rest components
+
+- Notepad++ for the main text editor
+
+- Github for the main repository place
+
+- https://www.themoviedb.org for the movies APIs 
