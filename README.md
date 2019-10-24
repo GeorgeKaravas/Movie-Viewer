@@ -1,2 +1,4 @@
 # Movie-Viewer
-Movie viewer for the most popular movies. 
+A list of the most popular movies.
+
+
