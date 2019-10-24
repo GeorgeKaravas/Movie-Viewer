@@ -33,8 +33,8 @@
 # Main way to build
 
 
-In index.html you need to link to the components from bootstrap/Lightbox/jQuery first using a *src* command to the relative .js file from each tool, in <body>
+In index.html you need to link to the components from bootstrap/Lightbox/jQuery first using a *src* command to the relative .js file from each tool, in **body**
   
-In <head> you need to link the css styles from the relative .css from each tool using *href* command
+In **head** you need to link the css styles from the relative .css from each tool using *href* command
   
 After define to an ID our variable"app" we can start using the libraries of the tools.
