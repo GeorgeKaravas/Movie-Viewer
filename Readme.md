@@ -38,3 +38,7 @@ In index.html you need to link to the components from bootstrap/Lightbox/jQuery 
 In **head** you need to link the css styles from the relative .css from each tool using *href* command
   
 After define to an ID our variable"app" we can start using the libraries of the tools.
+
+In the Movies.js you define what will show on the main bar and that we export.
+
+In each step of the connection to the mail file , comments show what some function/var and other js command will do.
